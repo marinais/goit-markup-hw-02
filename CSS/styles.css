@@ -1,1 +1,98 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
 
+.page {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+.logo {
+  color: #000000;
+}
+
+/* Site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--accent-color);
+}
+
+.header-tel:hover,
+.header-mail:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+  color: #ffffff;
+  background: #2f303a;
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Features */
+
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* Team */
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+/* Portfolio */
+.portfolio-list .title {
+  counter-reset: var(--title-text-color);
+}
+
+/* Button */
+
+.button {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+
+/* цвет основного текста */
+color: #757575;
+/* цвет заголовков */
+color: #212121;
+/* цвет белый */
+color: #ffffff;
+/* цвет подсветки интерактивных элементов (акцент) */
+color: #2196f3;
+/* цвет ссылок в футере */
+color: rgba(255, 255, 255, 0, 6);
+/* вторичный цвет фона */
+background: #e5e5e5;
+background: #f5f4fa;
